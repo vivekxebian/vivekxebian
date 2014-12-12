@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="game.css">
+	<title></title>
+	<script src="game.js"></script>
+</head>
+<body>
+<script>
+	function showx(){
+		var count=0;
+	var x=document.getElementsByClassName("cube");
+	x[count].innerHTML="x";
+	
+	if(count==0)
+	{
+		x[0].innerHTML="o";
+	}
+	
+	}
+
+</script>
+<div class="wrapper">
+<h1> Tic Tac Toe -My first game</h1>
+<div class="board">
+	<div id="div1" class="cube" onclick="showx()"></div>
+	<div class="cube" onclick="showx()">o</div>
+	<div class="cube"onclick="showx()">x</div>
+	<div class="cube" onclick="showx()">o</div>
+	<div class="cube" onclick="showx()">x</div>
+	<div class="cube" onclick="showx()">x</div>
+	<div class="cube" onclick="showx()">x</div>
+	<div class="cube" onclick="showx()">x</div>
+	<div class="cube" onclick="showx()">x</div>
+</div>
+
+
+</div>
+</body>
+</html>
